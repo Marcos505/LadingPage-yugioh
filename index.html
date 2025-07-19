@@ -16,31 +16,63 @@
 </head>
 
 <body>
-    <nav class="navbar">
-        <div class="navbar-left">
-            <img src="#" alt="logo">
-        </div>
-        <div class="navbar-right">
-            <p>
-                <a href="#">Home</a>
-                <a href="#">Quem somos?</a>
-                <a href="#">Localização</a>
-            </p>
-        </div>
-    </nav>
+
+    <div class="navbar">
+        <nav class="navbar-itens">
+            <div class="navbar-left-logo">
+                <img src="/assets/logo.svg" alt="logo">
+            </div>
+        </nav>
+        <nav class="navbar-itens-right">
+            <div class="navbar-links">
+                <a href="#secao-one">Home</a>
+            </div>
+            <div class="navbar-links">
+                <a href="#secao-two">Quem somos?</a>
+            </div>
+            <div class="navbar-links">
+                <a href="#secao-tree">Localização</a>
+            </div>
+        </nav>
+
+    </div>
+
+
     
-    <header class="centry">
-        <div class="image01"></div>
+    <header class="centry" id="secao-one">
+        <ul class="slider">
+            <li>
+                <input type="radio" id="slide1" name="slide" checked>
+                <label for="slide1"></label>
+                <img src="/assets/image01.jpeg" alt="#">
+            </li>
+            <li>
+                <input type="radio" id="slide2" name="slide">
+                <label for="slide2"></label>
+                <img src="/assets/image02.jpeg" alt="#">
+            </li>
+            <li>
+                <input type="radio" id="slide3" name="slide">
+                <label for="slide3"></label>
+                <img src="/assets/image03.jpeg" alt="#">
+            </li>
+            <li>
+                <input type="radio" id="slide4" name="slide">
+                <label for="slide4"></label>
+                <img src="/assets/image04.jpeg" alt="#">
+            </li>
+        </ul>
+        <!-- <div class="image01"></div>
         <div class="image02"></div>
         <div class="image03"></div>
-        <div class="image04"></div>
+        <div class="image04"></div> -->
     </header>
     <main>
-        <div class="container one">
+        <div class="container one" id="secao-two">
             <h1>Quem somos?</h1>
             <button>Whatsapp</button>
         </div>
-        <div class="container two">
+        <div class="container two" id="secao-tree">
             <h1>Datas de encontro, torneios e local.</h1>
             <button>Whatsapp</button>
         </div>
@@ -50,20 +82,25 @@
                 <h4 class="title-footer">Liga <span>Yu-Gi-Oh!</span> Acre</h4>
 
                 <p class="links">
-                    <a href="#">Home</a>
-                    <a href="#">Quem somos?</a>
-                    <a href="#">Localização</a>
+                    <a href="#secao-one">Home</a>
+                    <a href="#secao-two">Quem somos?</a>
+                    <a href="#secao-tree">Localização</a>
                 </p>
 
                 <div class="footer-icons">
-                    <a href="https://chat.whatsapp.com/CfuIrmO4CKO7I6NholdSOp" target="_blank"><i class="fa fa-whatsapp"></i></a>
-                    <a href="https://www.instagram.com/ligayugiohacre/" target="_blank"><i class="fa fa-instagram"></i></a>
+                    <a href="https://chat.whatsapp.com/CfuIrmO4CKO7I6NholdSOp" target="_blank"><i
+                            class="fa fa-whatsapp"></i></a>
+                    <a href="https://www.instagram.com/ligayugiohacre/" target="_blank"><i
+                            class="fa fa-instagram"></i></a>
                     <a href="https://github.com/Marcos505" target="_blank"><i class="fa fa-github"></i></a>
                 </div>
 
                 <p class="Copyright">Copyright &copy; 2025 Liga Yu-Gi-Yo! Acre - Todos os Direitos Reservados.</p>
             </div>
 
+            <div class="rigth">
+                <img src="/assets/yugioohhhh.png" alt="#">
+            </div>
 
         </footer>
     </main>
